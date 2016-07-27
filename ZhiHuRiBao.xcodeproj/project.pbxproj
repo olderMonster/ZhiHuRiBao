@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D822963E5C2D7DEAF110A9C /* libPods-ZhiHuRiBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E373E5ABA8A1354F2806E7 /* libPods-ZhiHuRiBao.a */; };
+		9D2FC4701D45E2A9003FCDC2 /* ZHRBReportsShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2FC46F1D45E2A9003FCDC2 /* ZHRBReportsShareCell.m */; };
+		9D2FC4741D45E922003FCDC2 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2FC4711D45E922003FCDC2 /* qq.png */; };
+		9D2FC4751D45E922003FCDC2 /* weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2FC4721D45E922003FCDC2 /* weibo.png */; };
+		9D2FC4761D45E922003FCDC2 /* weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2FC4731D45E922003FCDC2 /* weixin.png */; };
+		9D2FC47C1D460C0D003FCDC2 /* ZHRBReportsCommentsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2FC47B1D460C0D003FCDC2 /* ZHRBReportsCommentsCell.m */; };
+		9D2FC47F1D4612A8003FCDC2 /* ZHRBReportsCommentsReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2FC47E1D4612A8003FCDC2 /* ZHRBReportsCommentsReformer.m */; };
+		9D3B68B91D4844A800E7B1D7 /* ZHRBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B68B81D4844A800E7B1D7 /* ZHRBLoadingView.m */; };
+		9D5DD6BA1D46F91400309A75 /* ZHRBReportsLongCommentsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DD6B91D46F91400309A75 /* ZHRBReportsLongCommentsManager.m */; };
+		9D5DD6BD1D46F92600309A75 /* ZHRBReportsShortCommentsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DD6BC1D46F92600309A75 /* ZHRBReportsShortCommentsManager.m */; };
+		9D5DD6CF1D47339800309A75 /* ZHRBSendCommentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DD6CE1D47339800309A75 /* ZHRBSendCommentsController.m */; };
+		9D5DD6D31D47373800309A75 /* OMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DD6D21D47373800309A75 /* OMNavigationController.m */; };
+		9D5DD6D51D473C1D00309A75 /* News_Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D5DD6D41D473C1D00309A75 /* News_Arrow@2x.png */; };
+		9D69AC8A1D408F110039A9B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69AC891D408F110039A9B4 /* main.m */; };
+		9D69ACA21D408F420039A9B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACA11D408F420039A9B4 /* AppDelegate.m */; };
+		9D69ACA91D4091170039A9B4 /* ZHRBReportsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACA81D4091170039A9B4 /* ZHRBReportsController.m */; };
+		9D69ACE11D409C230039A9B4 /* OMCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACB21D409C230039A9B4 /* OMCommonParamsGenerator.m */; };
+		9D69ACE21D409C230039A9B4 /* OMRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACB41D409C230039A9B4 /* OMRequestGenerator.m */; };
+		9D69ACE31D409C230039A9B4 /* OMSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACB61D409C230039A9B4 /* OMSignatureGenerator.m */; };
+		9D69ACE41D409C230039A9B4 /* NSArray+PDNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACB91D409C230039A9B4 /* NSArray+PDNetworkingMethods.m */; };
+		9D69ACE51D409C230039A9B4 /* NSDictionary+PDNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACBB1D409C230039A9B4 /* NSDictionary+PDNetworkingMethods.m */; };
+		9D69ACE61D409C230039A9B4 /* NSObject+PDNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACBD1D409C230039A9B4 /* NSObject+PDNetworkingMethods.m */; };
+		9D69ACE71D409C230039A9B4 /* NSString+PDNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACBF1D409C230039A9B4 /* NSString+PDNetworkingMethods.m */; };
+		9D69ACE81D409C230039A9B4 /* NSURLRequest+PDNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACC11D409C230039A9B4 /* NSURLRequest+PDNetworkingMethods.m */; };
+		9D69ACE91D409C230039A9B4 /* UIColor+HandleAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACC31D409C230039A9B4 /* UIColor+HandleAddition.m */; };
+		9D69ACEA1D409C230039A9B4 /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACC51D409C230039A9B4 /* UIDevice+IdentifierAddition.m */; };
+		9D69ACEB1D409C230039A9B4 /* UIImage+HandleAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACC71D409C230039A9B4 /* UIImage+HandleAddition.m */; };
+		9D69ACEC1D409C230039A9B4 /* UIView+HandleAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACC91D409C230039A9B4 /* UIView+HandleAddition.m */; };
+		9D69ACED1D409C230039A9B4 /* OMApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACCC1D409C230039A9B4 /* OMApiProxy.m */; };
+		9D69ACEE1D409C230039A9B4 /* OMApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACCE1D409C230039A9B4 /* OMApiResponse.m */; };
+		9D69ACEF1D409C230039A9B4 /* OMAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACD01D409C230039A9B4 /* OMAppContext.m */; };
+		9D69ACF01D409C230039A9B4 /* OMBaseApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACD21D409C230039A9B4 /* OMBaseApiManager.m */; };
+		9D69ACF11D409C230039A9B4 /* OMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACD61D409C230039A9B4 /* OMCache.m */; };
+		9D69ACF21D409C230039A9B4 /* OMCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACD81D409C230039A9B4 /* OMCacheObject.m */; };
+		9D69ACF31D409C230039A9B4 /* ZHRBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACDC1D409C230039A9B4 /* ZHRBService.m */; };
+		9D69ACF41D409C230039A9B4 /* OMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACDE1D409C230039A9B4 /* OMService.m */; };
+		9D69ACF51D409C230039A9B4 /* OMServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACE01D409C230039A9B4 /* OMServiceFactory.m */; };
+		9D69ACF91D409CD90039A9B4 /* ZHRBReportsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACF81D409CD90039A9B4 /* ZHRBReportsManager.m */; };
+		9D69ACFF1D40AD7D0039A9B4 /* ZHRBBeforeReportsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69ACFE1D40AD7D0039A9B4 /* ZHRBBeforeReportsManager.m */; };
+		9D69AD021D40AF210039A9B4 /* ZHRBReportsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69AD011D40AF210039A9B4 /* ZHRBReportsCell.m */; };
+		9D69AD061D40B18B0039A9B4 /* ZHRBReportsReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D69AD051D40B18B0039A9B4 /* ZHRBReportsReformer.m */; };
+		9D8756A21D41C95E00BBC3BB /* ZHRBReportsHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8756A11D41C95E00BBC3BB /* ZHRBReportsHeaderView.m */; };
+		9D8756A91D41E2B300BBC3BB /* ZHRBReportsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8756A81D41E2B300BBC3BB /* ZHRBReportsDetailController.m */; };
+		9D8756AB1D41E89100BBC3BB /* News_Navigation_Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8756AA1D41E89100BBC3BB /* News_Navigation_Arrow@2x.png */; };
+		9D8756AF1D41E89F00BBC3BB /* News_Navigation_Comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8756AE1D41E89F00BBC3BB /* News_Navigation_Comment@2x.png */; };
+		9D8756B11D41E8A400BBC3BB /* News_Navigation_Next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8756B01D41E8A400BBC3BB /* News_Navigation_Next@2x.png */; };
+		9D8756B31D41E8A900BBC3BB /* News_Navigation_Share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8756B21D41E8A900BBC3BB /* News_Navigation_Share@2x.png */; };
+		9D8756B51D41E8AE00BBC3BB /* News_Navigation_Voted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8756B41D41E8AE00BBC3BB /* News_Navigation_Voted@2x.png */; };
+		9D8756B81D41ED3200BBC3BB /* ZHRBReportsExtraInfoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8756B71D41ED3200BBC3BB /* ZHRBReportsExtraInfoManager.m */; };
+		9D8756BB1D41EFB700BBC3BB /* ZHRBReportDetailManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8756BA1D41EFB700BBC3BB /* ZHRBReportDetailManager.m */; };
+		9D8756BD1D4212E800BBC3BB /* Home_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8756BC1D4212E800BBC3BB /* Home_Icon@2x.png */; };
+		9D8756C01D42133300BBC3BB /* ZHRBReportsCommentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8756BF1D42133300BBC3BB /* ZHRBReportsCommentController.m */; };
+		9D8756C31D421DD800BBC3BB /* ZHRBReportsShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8756C21D421DD800BBC3BB /* ZHRBReportsShareView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2540EEB5C61C47F30C4E39F5 /* Pods-ZhiHuRiBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiHuRiBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiHuRiBao/Pods-ZhiHuRiBao.release.xcconfig"; sourceTree = "<group>"; };
+		9D2FC46E1D45E2A9003FCDC2 /* ZHRBReportsShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsShareCell.h; sourceTree = "<group>"; };
+		9D2FC46F1D45E2A9003FCDC2 /* ZHRBReportsShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsShareCell.m; sourceTree = "<group>"; };
+		9D2FC4711D45E922003FCDC2 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		9D2FC4721D45E922003FCDC2 /* weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weibo.png; sourceTree = "<group>"; };
+		9D2FC4731D45E922003FCDC2 /* weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixin.png; sourceTree = "<group>"; };
+		9D2FC47A1D460C0D003FCDC2 /* ZHRBReportsCommentsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsCommentsCell.h; sourceTree = "<group>"; };
+		9D2FC47B1D460C0D003FCDC2 /* ZHRBReportsCommentsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsCommentsCell.m; sourceTree = "<group>"; };
+		9D2FC47D1D4612A8003FCDC2 /* ZHRBReportsCommentsReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsCommentsReformer.h; sourceTree = "<group>"; };
+		9D2FC47E1D4612A8003FCDC2 /* ZHRBReportsCommentsReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsCommentsReformer.m; sourceTree = "<group>"; };
+		9D3B68B71D4844A700E7B1D7 /* ZHRBLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBLoadingView.h; sourceTree = "<group>"; };
+		9D3B68B81D4844A800E7B1D7 /* ZHRBLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBLoadingView.m; sourceTree = "<group>"; };
+		9D5DD6B91D46F91400309A75 /* ZHRBReportsLongCommentsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsLongCommentsManager.m; sourceTree = "<group>"; };
+		9D5DD6BB1D46F92600309A75 /* ZHRBReportsShortCommentsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsShortCommentsManager.h; sourceTree = "<group>"; };
+		9D5DD6BC1D46F92600309A75 /* ZHRBReportsShortCommentsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsShortCommentsManager.m; sourceTree = "<group>"; };
+		9D5DD6BE1D46F95E00309A75 /* ZHRBReportsLongCommentsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsLongCommentsManager.h; sourceTree = "<group>"; };
+		9D5DD6CD1D47339800309A75 /* ZHRBSendCommentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBSendCommentsController.h; sourceTree = "<group>"; };
+		9D5DD6CE1D47339800309A75 /* ZHRBSendCommentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBSendCommentsController.m; sourceTree = "<group>"; };
+		9D5DD6D11D47373800309A75 /* OMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMNavigationController.h; sourceTree = "<group>"; };
+		9D5DD6D21D47373800309A75 /* OMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMNavigationController.m; sourceTree = "<group>"; };
+		9D5DD6D41D473C1D00309A75 /* News_Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Arrow@2x.png"; sourceTree = "<group>"; };
+		9D69AC851D408F110039A9B4 /* ZhiHuRiBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiHuRiBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D69AC891D408F110039A9B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D69AC991D408F110039A9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D69ACA01D408F420039A9B4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D69ACA11D408F420039A9B4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D69ACA71D4091170039A9B4 /* ZHRBReportsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsController.h; sourceTree = "<group>"; };
+		9D69ACA81D4091170039A9B4 /* ZHRBReportsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsController.m; sourceTree = "<group>"; };
+		9D69ACB11D409C230039A9B4 /* OMCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCommonParamsGenerator.h; sourceTree = "<group>"; };
+		9D69ACB21D409C230039A9B4 /* OMCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCommonParamsGenerator.m; sourceTree = "<group>"; };
+		9D69ACB31D409C230039A9B4 /* OMRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMRequestGenerator.h; sourceTree = "<group>"; };
+		9D69ACB41D409C230039A9B4 /* OMRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMRequestGenerator.m; sourceTree = "<group>"; };
+		9D69ACB51D409C230039A9B4 /* OMSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMSignatureGenerator.h; sourceTree = "<group>"; };
+		9D69ACB61D409C230039A9B4 /* OMSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMSignatureGenerator.m; sourceTree = "<group>"; };
+		9D69ACB81D409C230039A9B4 /* NSArray+PDNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PDNetworkingMethods.h"; sourceTree = "<group>"; };
+		9D69ACB91D409C230039A9B4 /* NSArray+PDNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PDNetworkingMethods.m"; sourceTree = "<group>"; };
+		9D69ACBA1D409C230039A9B4 /* NSDictionary+PDNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PDNetworkingMethods.h"; sourceTree = "<group>"; };
+		9D69ACBB1D409C230039A9B4 /* NSDictionary+PDNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PDNetworkingMethods.m"; sourceTree = "<group>"; };
+		9D69ACBC1D409C230039A9B4 /* NSObject+PDNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PDNetworkingMethods.h"; sourceTree = "<group>"; };
+		9D69ACBD1D409C230039A9B4 /* NSObject+PDNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PDNetworkingMethods.m"; sourceTree = "<group>"; };
+		9D69ACBE1D409C230039A9B4 /* NSString+PDNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDNetworkingMethods.h"; sourceTree = "<group>"; };
+		9D69ACBF1D409C230039A9B4 /* NSString+PDNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDNetworkingMethods.m"; sourceTree = "<group>"; };
+		9D69ACC01D409C230039A9B4 /* NSURLRequest+PDNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+PDNetworkingMethods.h"; sourceTree = "<group>"; };
+		9D69ACC11D409C230039A9B4 /* NSURLRequest+PDNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+PDNetworkingMethods.m"; sourceTree = "<group>"; };
+		9D69ACC21D409C230039A9B4 /* UIColor+HandleAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HandleAddition.h"; sourceTree = "<group>"; };
+		9D69ACC31D409C230039A9B4 /* UIColor+HandleAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HandleAddition.m"; sourceTree = "<group>"; };
+		9D69ACC41D409C230039A9B4 /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		9D69ACC51D409C230039A9B4 /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		9D69ACC61D409C230039A9B4 /* UIImage+HandleAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HandleAddition.h"; sourceTree = "<group>"; };
+		9D69ACC71D409C230039A9B4 /* UIImage+HandleAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HandleAddition.m"; sourceTree = "<group>"; };
+		9D69ACC81D409C230039A9B4 /* UIView+HandleAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HandleAddition.h"; sourceTree = "<group>"; };
+		9D69ACC91D409C230039A9B4 /* UIView+HandleAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HandleAddition.m"; sourceTree = "<group>"; };
+		9D69ACCB1D409C230039A9B4 /* OMApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMApiProxy.h; sourceTree = "<group>"; };
+		9D69ACCC1D409C230039A9B4 /* OMApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMApiProxy.m; sourceTree = "<group>"; };
+		9D69ACCD1D409C230039A9B4 /* OMApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMApiResponse.h; sourceTree = "<group>"; };
+		9D69ACCE1D409C230039A9B4 /* OMApiResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMApiResponse.m; sourceTree = "<group>"; };
+		9D69ACCF1D409C230039A9B4 /* OMAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAppContext.h; sourceTree = "<group>"; };
+		9D69ACD01D409C230039A9B4 /* OMAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAppContext.m; sourceTree = "<group>"; };
+		9D69ACD11D409C230039A9B4 /* OMBaseApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMBaseApiManager.h; sourceTree = "<group>"; };
+		9D69ACD21D409C230039A9B4 /* OMBaseApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMBaseApiManager.m; sourceTree = "<group>"; };
+		9D69ACD31D409C230039A9B4 /* OMNetworkingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMNetworkingConfiguration.h; sourceTree = "<group>"; };
+		9D69ACD51D409C230039A9B4 /* OMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCache.h; sourceTree = "<group>"; };
+		9D69ACD61D409C230039A9B4 /* OMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCache.m; sourceTree = "<group>"; };
+		9D69ACD71D409C230039A9B4 /* OMCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMCacheObject.h; sourceTree = "<group>"; };
+		9D69ACD81D409C230039A9B4 /* OMCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMCacheObject.m; sourceTree = "<group>"; };
+		9D69ACDB1D409C230039A9B4 /* ZHRBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHRBService.h; path = ../ZHRBService.h; sourceTree = "<group>"; };
+		9D69ACDC1D409C230039A9B4 /* ZHRBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHRBService.m; path = ../ZHRBService.m; sourceTree = "<group>"; };
+		9D69ACDD1D409C230039A9B4 /* OMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMService.h; sourceTree = "<group>"; };
+		9D69ACDE1D409C230039A9B4 /* OMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMService.m; sourceTree = "<group>"; };
+		9D69ACDF1D409C230039A9B4 /* OMServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMServiceFactory.h; sourceTree = "<group>"; };
+		9D69ACE01D409C230039A9B4 /* OMServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMServiceFactory.m; sourceTree = "<group>"; };
+		9D69ACF71D409CD90039A9B4 /* ZHRBReportsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsManager.h; sourceTree = "<group>"; };
+		9D69ACF81D409CD90039A9B4 /* ZHRBReportsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsManager.m; sourceTree = "<group>"; };
+		9D69ACFD1D40AD7D0039A9B4 /* ZHRBBeforeReportsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBBeforeReportsManager.h; sourceTree = "<group>"; };
+		9D69ACFE1D40AD7D0039A9B4 /* ZHRBBeforeReportsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBBeforeReportsManager.m; sourceTree = "<group>"; };
+		9D69AD001D40AF210039A9B4 /* ZHRBReportsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsCell.h; sourceTree = "<group>"; };
+		9D69AD011D40AF210039A9B4 /* ZHRBReportsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsCell.m; sourceTree = "<group>"; };
+		9D69AD041D40B18B0039A9B4 /* ZHRBReportsReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsReformer.h; sourceTree = "<group>"; };
+		9D69AD051D40B18B0039A9B4 /* ZHRBReportsReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsReformer.m; sourceTree = "<group>"; };
+		9D8756A01D41C95E00BBC3BB /* ZHRBReportsHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsHeaderView.h; sourceTree = "<group>"; };
+		9D8756A11D41C95E00BBC3BB /* ZHRBReportsHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsHeaderView.m; sourceTree = "<group>"; };
+		9D8756A71D41E2B300BBC3BB /* ZHRBReportsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsDetailController.h; sourceTree = "<group>"; };
+		9D8756A81D41E2B300BBC3BB /* ZHRBReportsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsDetailController.m; sourceTree = "<group>"; };
+		9D8756AA1D41E89100BBC3BB /* News_Navigation_Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Arrow@2x.png"; sourceTree = "<group>"; };
+		9D8756AE1D41E89F00BBC3BB /* News_Navigation_Comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Comment@2x.png"; sourceTree = "<group>"; };
+		9D8756B01D41E8A400BBC3BB /* News_Navigation_Next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Next@2x.png"; sourceTree = "<group>"; };
+		9D8756B21D41E8A900BBC3BB /* News_Navigation_Share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Share@2x.png"; sourceTree = "<group>"; };
+		9D8756B41D41E8AE00BBC3BB /* News_Navigation_Voted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "News_Navigation_Voted@2x.png"; sourceTree = "<group>"; };
+		9D8756B61D41ED3200BBC3BB /* ZHRBReportsExtraInfoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsExtraInfoManager.h; sourceTree = "<group>"; };
+		9D8756B71D41ED3200BBC3BB /* ZHRBReportsExtraInfoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsExtraInfoManager.m; sourceTree = "<group>"; };
+		9D8756B91D41EFB700BBC3BB /* ZHRBReportDetailManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportDetailManager.h; sourceTree = "<group>"; };
+		9D8756BA1D41EFB700BBC3BB /* ZHRBReportDetailManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportDetailManager.m; sourceTree = "<group>"; };
+		9D8756BC1D4212E800BBC3BB /* Home_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home_Icon@2x.png"; sourceTree = "<group>"; };
+		9D8756BE1D42133300BBC3BB /* ZHRBReportsCommentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsCommentController.h; sourceTree = "<group>"; };
+		9D8756BF1D42133300BBC3BB /* ZHRBReportsCommentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsCommentController.m; sourceTree = "<group>"; };
+		9D8756C11D421DD800BBC3BB /* ZHRBReportsShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHRBReportsShareView.h; sourceTree = "<group>"; };
+		9D8756C21D421DD800BBC3BB /* ZHRBReportsShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHRBReportsShareView.m; sourceTree = "<group>"; };
+		B0E373E5ABA8A1354F2806E7 /* libPods-ZhiHuRiBao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhiHuRiBao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B81FA35C7CE5D0ED212375 /* Pods-ZhiHuRiBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiHuRiBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiHuRiBao/Pods-ZhiHuRiBao.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D69AC821D408F110039A9B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D822963E5C2D7DEAF110A9C /* libPods-ZhiHuRiBao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A09E62778351E2056C6AEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7B81FA35C7CE5D0ED212375 /* Pods-ZhiHuRiBao.debug.xcconfig */,
+				2540EEB5C61C47F30C4E39F5 /* Pods-ZhiHuRiBao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D5DD6BF1D4705A300309A75 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DD6D01D47373800309A75 /* OMNavigation */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		9D5DD6D01D47373800309A75 /* OMNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DD6D11D47373800309A75 /* OMNavigationController.h */,
+				9D5DD6D21D47373800309A75 /* OMNavigationController.m */,
+			);
+			path = OMNavigation;
+			sourceTree = "<group>";
+		};
+		9D69AC7C1D408F100039A9B4 = {
+			isa = PBXGroup;
+			children = (
+				9D69AC871D408F110039A9B4 /* ZhiHuRiBao */,
+				9D69AC861D408F110039A9B4 /* Products */,
+				16A09E62778351E2056C6AEB /* Pods */,
+				E4FD22011ACA99ED71C28159 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D69AC861D408F110039A9B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D69AC851D408F110039A9B4 /* ZhiHuRiBao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D69AC871D408F110039A9B4 /* ZhiHuRiBao */ = {
+			isa = PBXGroup;
+			children = (
+				9D8756A31D41D19E00BBC3BB /* Resource */,
+				9D69AC9F1D408F420039A9B4 /* ZHRBAppEntry */,
+				9D69ACA31D4091040039A9B4 /* ZHRBReprots */,
+				9D69ACB01D409C230039A9B4 /* Assistants */,
+				9D69ACB71D409C230039A9B4 /* Categories */,
+				9D69ACCA1D409C230039A9B4 /* Manager */,
+				9D69ACD41D409C230039A9B4 /* PDCache */,
+				9D69ACD91D409C230039A9B4 /* Service */,
+				9D69AC881D408F110039A9B4 /* Supporting Files */,
+			);
+			path = ZhiHuRiBao;
+			sourceTree = "<group>";
+		};
+		9D69AC881D408F110039A9B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D69AC991D408F110039A9B4 /* Info.plist */,
+				9D69AC891D408F110039A9B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D69AC9F1D408F420039A9B4 /* ZHRBAppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACA01D408F420039A9B4 /* AppDelegate.h */,
+				9D69ACA11D408F420039A9B4 /* AppDelegate.m */,
+			);
+			path = ZHRBAppEntry;
+			sourceTree = "<group>";
+		};
+		9D69ACA31D4091040039A9B4 /* ZHRBReprots */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACA41D4091040039A9B4 /* Controllers */,
+				9D69ACA51D4091040039A9B4 /* Managers */,
+				9D69ACA61D4091040039A9B4 /* Views */,
+				9D69AD031D40B1760039A9B4 /* Reformer */,
+			);
+			path = ZHRBReprots;
+			sourceTree = "<group>";
+		};
+		9D69ACA41D4091040039A9B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACA71D4091170039A9B4 /* ZHRBReportsController.h */,
+				9D69ACA81D4091170039A9B4 /* ZHRBReportsController.m */,
+				9D8756A71D41E2B300BBC3BB /* ZHRBReportsDetailController.h */,
+				9D8756A81D41E2B300BBC3BB /* ZHRBReportsDetailController.m */,
+				9D8756BE1D42133300BBC3BB /* ZHRBReportsCommentController.h */,
+				9D8756BF1D42133300BBC3BB /* ZHRBReportsCommentController.m */,
+				9D5DD6CD1D47339800309A75 /* ZHRBSendCommentsController.h */,
+				9D5DD6CE1D47339800309A75 /* ZHRBSendCommentsController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9D69ACA51D4091040039A9B4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACF71D409CD90039A9B4 /* ZHRBReportsManager.h */,
+				9D69ACF81D409CD90039A9B4 /* ZHRBReportsManager.m */,
+				9D69ACFD1D40AD7D0039A9B4 /* ZHRBBeforeReportsManager.h */,
+				9D69ACFE1D40AD7D0039A9B4 /* ZHRBBeforeReportsManager.m */,
+				9D8756B61D41ED3200BBC3BB /* ZHRBReportsExtraInfoManager.h */,
+				9D8756B71D41ED3200BBC3BB /* ZHRBReportsExtraInfoManager.m */,
+				9D8756B91D41EFB700BBC3BB /* ZHRBReportDetailManager.h */,
+				9D8756BA1D41EFB700BBC3BB /* ZHRBReportDetailManager.m */,
+				9D5DD6BE1D46F95E00309A75 /* ZHRBReportsLongCommentsManager.h */,
+				9D5DD6B91D46F91400309A75 /* ZHRBReportsLongCommentsManager.m */,
+				9D5DD6BB1D46F92600309A75 /* ZHRBReportsShortCommentsManager.h */,
+				9D5DD6BC1D46F92600309A75 /* ZHRBReportsShortCommentsManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9D69ACA61D4091040039A9B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D69AD001D40AF210039A9B4 /* ZHRBReportsCell.h */,
+				9D69AD011D40AF210039A9B4 /* ZHRBReportsCell.m */,
+				9D8756A01D41C95E00BBC3BB /* ZHRBReportsHeaderView.h */,
+				9D8756A11D41C95E00BBC3BB /* ZHRBReportsHeaderView.m */,
+				9D8756C11D421DD800BBC3BB /* ZHRBReportsShareView.h */,
+				9D8756C21D421DD800BBC3BB /* ZHRBReportsShareView.m */,
+				9D2FC46E1D45E2A9003FCDC2 /* ZHRBReportsShareCell.h */,
+				9D2FC46F1D45E2A9003FCDC2 /* ZHRBReportsShareCell.m */,
+				9D2FC47A1D460C0D003FCDC2 /* ZHRBReportsCommentsCell.h */,
+				9D2FC47B1D460C0D003FCDC2 /* ZHRBReportsCommentsCell.m */,
+				9D3B68B71D4844A700E7B1D7 /* ZHRBLoadingView.h */,
+				9D3B68B81D4844A800E7B1D7 /* ZHRBLoadingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D69ACB01D409C230039A9B4 /* Assistants */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACB11D409C230039A9B4 /* OMCommonParamsGenerator.h */,
+				9D69ACB21D409C230039A9B4 /* OMCommonParamsGenerator.m */,
+				9D69ACB31D409C230039A9B4 /* OMRequestGenerator.h */,
+				9D69ACB41D409C230039A9B4 /* OMRequestGenerator.m */,
+				9D69ACB51D409C230039A9B4 /* OMSignatureGenerator.h */,
+				9D69ACB61D409C230039A9B4 /* OMSignatureGenerator.m */,
+			);
+			path = Assistants;
+			sourceTree = "<group>";
+		};
+		9D69ACB71D409C230039A9B4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACB81D409C230039A9B4 /* NSArray+PDNetworkingMethods.h */,
+				9D69ACB91D409C230039A9B4 /* NSArray+PDNetworkingMethods.m */,
+				9D69ACBA1D409C230039A9B4 /* NSDictionary+PDNetworkingMethods.h */,
+				9D69ACBB1D409C230039A9B4 /* NSDictionary+PDNetworkingMethods.m */,
+				9D69ACBC1D409C230039A9B4 /* NSObject+PDNetworkingMethods.h */,
+				9D69ACBD1D409C230039A9B4 /* NSObject+PDNetworkingMethods.m */,
+				9D69ACBE1D409C230039A9B4 /* NSString+PDNetworkingMethods.h */,
+				9D69ACBF1D409C230039A9B4 /* NSString+PDNetworkingMethods.m */,
+				9D69ACC01D409C230039A9B4 /* NSURLRequest+PDNetworkingMethods.h */,
+				9D69ACC11D409C230039A9B4 /* NSURLRequest+PDNetworkingMethods.m */,
+				9D69ACC21D409C230039A9B4 /* UIColor+HandleAddition.h */,
+				9D69ACC31D409C230039A9B4 /* UIColor+HandleAddition.m */,
+				9D69ACC41D409C230039A9B4 /* UIDevice+IdentifierAddition.h */,
+				9D69ACC51D409C230039A9B4 /* UIDevice+IdentifierAddition.m */,
+				9D69ACC61D409C230039A9B4 /* UIImage+HandleAddition.h */,
+				9D69ACC71D409C230039A9B4 /* UIImage+HandleAddition.m */,
+				9D69ACC81D409C230039A9B4 /* UIView+HandleAddition.h */,
+				9D69ACC91D409C230039A9B4 /* UIView+HandleAddition.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9D69ACCA1D409C230039A9B4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACCB1D409C230039A9B4 /* OMApiProxy.h */,
+				9D69ACCC1D409C230039A9B4 /* OMApiProxy.m */,
+				9D69ACCD1D409C230039A9B4 /* OMApiResponse.h */,
+				9D69ACCE1D409C230039A9B4 /* OMApiResponse.m */,
+				9D69ACCF1D409C230039A9B4 /* OMAppContext.h */,
+				9D69ACD01D409C230039A9B4 /* OMAppContext.m */,
+				9D69ACD11D409C230039A9B4 /* OMBaseApiManager.h */,
+				9D69ACD21D409C230039A9B4 /* OMBaseApiManager.m */,
+				9D69ACD31D409C230039A9B4 /* OMNetworkingConfiguration.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9D69ACD41D409C230039A9B4 /* PDCache */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACD51D409C230039A9B4 /* OMCache.h */,
+				9D69ACD61D409C230039A9B4 /* OMCache.m */,
+				9D69ACD71D409C230039A9B4 /* OMCacheObject.h */,
+				9D69ACD81D409C230039A9B4 /* OMCacheObject.m */,
+			);
+			path = PDCache;
+			sourceTree = "<group>";
+		};
+		9D69ACD91D409C230039A9B4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACF61D409C4E0039A9B4 /* ZHRBService */,
+				9D69ACDD1D409C230039A9B4 /* OMService.h */,
+				9D69ACDE1D409C230039A9B4 /* OMService.m */,
+				9D69ACDF1D409C230039A9B4 /* OMServiceFactory.h */,
+				9D69ACE01D409C230039A9B4 /* OMServiceFactory.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9D69ACF61D409C4E0039A9B4 /* ZHRBService */ = {
+			isa = PBXGroup;
+			children = (
+				9D69ACDB1D409C230039A9B4 /* ZHRBService.h */,
+				9D69ACDC1D409C230039A9B4 /* ZHRBService.m */,
+			);
+			path = ZHRBService;
+			sourceTree = "<group>";
+		};
+		9D69AD031D40B1760039A9B4 /* Reformer */ = {
+			isa = PBXGroup;
+			children = (
+				9D69AD041D40B18B0039A9B4 /* ZHRBReportsReformer.h */,
+				9D69AD051D40B18B0039A9B4 /* ZHRBReportsReformer.m */,
+				9D2FC47D1D4612A8003FCDC2 /* ZHRBReportsCommentsReformer.h */,
+				9D2FC47E1D4612A8003FCDC2 /* ZHRBReportsCommentsReformer.m */,
+			);
+			path = Reformer;
+			sourceTree = "<group>";
+		};
+		9D8756A31D41D19E00BBC3BB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DD6BF1D4705A300309A75 /* Vendor */,
+				9D8756A41D41D19E00BBC3BB /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9D8756A41D41D19E00BBC3BB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DD6D41D473C1D00309A75 /* News_Arrow@2x.png */,
+				9D2FC4711D45E922003FCDC2 /* qq.png */,
+				9D2FC4721D45E922003FCDC2 /* weibo.png */,
+				9D2FC4731D45E922003FCDC2 /* weixin.png */,
+				9D8756BC1D4212E800BBC3BB /* Home_Icon@2x.png */,
+				9D8756B41D41E8AE00BBC3BB /* News_Navigation_Voted@2x.png */,
+				9D8756B21D41E8A900BBC3BB /* News_Navigation_Share@2x.png */,
+				9D8756B01D41E8A400BBC3BB /* News_Navigation_Next@2x.png */,
+				9D8756AE1D41E89F00BBC3BB /* News_Navigation_Comment@2x.png */,
+				9D8756AA1D41E89100BBC3BB /* News_Navigation_Arrow@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E4FD22011ACA99ED71C28159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0E373E5ABA8A1354F2806E7 /* libPods-ZhiHuRiBao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D69AC841D408F110039A9B4 /* ZhiHuRiBao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D69AC9C1D408F110039A9B4 /* Build configuration list for PBXNativeTarget "ZhiHuRiBao" */;
+			buildPhases = (
+				551699AADE95FDEFDC4F01A1 /* [CP] Check Pods Manifest.lock */,
+				9D69AC811D408F110039A9B4 /* Sources */,
+				9D69AC821D408F110039A9B4 /* Frameworks */,
+				9D69AC831D408F110039A9B4 /* Resources */,
+				94792120C5AFBD793B45E164 /* [CP] Embed Pods Frameworks */,
+				8F40C49124B8268BCE7150FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhiHuRiBao;
+			productName = ZhiHuRiBao;
+			productReference = 9D69AC851D408F110039A9B4 /* ZhiHuRiBao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D69AC7D1D408F100039A9B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = kehwa;
+				TargetAttributes = {
+					9D69AC841D408F110039A9B4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9D69AC801D408F100039A9B4 /* Build configuration list for PBXProject "ZhiHuRiBao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D69AC7C1D408F100039A9B4;
+			productRefGroup = 9D69AC861D408F110039A9B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D69AC841D408F110039A9B4 /* ZhiHuRiBao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D69AC831D408F110039A9B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8756AB1D41E89100BBC3BB /* News_Navigation_Arrow@2x.png in Resources */,
+				9D8756BD1D4212E800BBC3BB /* Home_Icon@2x.png in Resources */,
+				9D2FC4751D45E922003FCDC2 /* weibo.png in Resources */,
+				9D2FC4761D45E922003FCDC2 /* weixin.png in Resources */,
+				9D8756B51D41E8AE00BBC3BB /* News_Navigation_Voted@2x.png in Resources */,
+				9D2FC4741D45E922003FCDC2 /* qq.png in Resources */,
+				9D8756B11D41E8A400BBC3BB /* News_Navigation_Next@2x.png in Resources */,
+				9D5DD6D51D473C1D00309A75 /* News_Arrow@2x.png in Resources */,
+				9D8756B31D41E8A900BBC3BB /* News_Navigation_Share@2x.png in Resources */,
+				9D8756AF1D41E89F00BBC3BB /* News_Navigation_Comment@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		551699AADE95FDEFDC4F01A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F40C49124B8268BCE7150FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiHuRiBao/Pods-ZhiHuRiBao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94792120C5AFBD793B45E164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiHuRiBao/Pods-ZhiHuRiBao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D69AC811D408F110039A9B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2FC47F1D4612A8003FCDC2 /* ZHRBReportsCommentsReformer.m in Sources */,
+				9D69ACE21D409C230039A9B4 /* OMRequestGenerator.m in Sources */,
+				9D69ACE81D409C230039A9B4 /* NSURLRequest+PDNetworkingMethods.m in Sources */,
+				9D5DD6D31D47373800309A75 /* OMNavigationController.m in Sources */,
+				9D69ACE61D409C230039A9B4 /* NSObject+PDNetworkingMethods.m in Sources */,
+				9D69ACED1D409C230039A9B4 /* OMApiProxy.m in Sources */,
+				9D5DD6BD1D46F92600309A75 /* ZHRBReportsShortCommentsManager.m in Sources */,
+				9D69ACF01D409C230039A9B4 /* OMBaseApiManager.m in Sources */,
+				9D2FC4701D45E2A9003FCDC2 /* ZHRBReportsShareCell.m in Sources */,
+				9D69ACE11D409C230039A9B4 /* OMCommonParamsGenerator.m in Sources */,
+				9D69ACE41D409C230039A9B4 /* NSArray+PDNetworkingMethods.m in Sources */,
+				9D69ACF41D409C230039A9B4 /* OMService.m in Sources */,
+				9D8756C31D421DD800BBC3BB /* ZHRBReportsShareView.m in Sources */,
+				9D69ACF21D409C230039A9B4 /* OMCacheObject.m in Sources */,
+				9D69ACEC1D409C230039A9B4 /* UIView+HandleAddition.m in Sources */,
+				9D8756B81D41ED3200BBC3BB /* ZHRBReportsExtraInfoManager.m in Sources */,
+				9D2FC47C1D460C0D003FCDC2 /* ZHRBReportsCommentsCell.m in Sources */,
+				9D8756C01D42133300BBC3BB /* ZHRBReportsCommentController.m in Sources */,
+				9D5DD6CF1D47339800309A75 /* ZHRBSendCommentsController.m in Sources */,
+				9D3B68B91D4844A800E7B1D7 /* ZHRBLoadingView.m in Sources */,
+				9D69ACEF1D409C230039A9B4 /* OMAppContext.m in Sources */,
+				9D69ACE71D409C230039A9B4 /* NSString+PDNetworkingMethods.m in Sources */,
+				9D69ACEB1D409C230039A9B4 /* UIImage+HandleAddition.m in Sources */,
+				9D69AD061D40B18B0039A9B4 /* ZHRBReportsReformer.m in Sources */,
+				9D69AD021D40AF210039A9B4 /* ZHRBReportsCell.m in Sources */,
+				9D69ACE91D409C230039A9B4 /* UIColor+HandleAddition.m in Sources */,
+				9D5DD6BA1D46F91400309A75 /* ZHRBReportsLongCommentsManager.m in Sources */,
+				9D69AC8A1D408F110039A9B4 /* main.m in Sources */,
+				9D69ACF11D409C230039A9B4 /* OMCache.m in Sources */,
+				9D69ACF31D409C230039A9B4 /* ZHRBService.m in Sources */,
+				9D8756BB1D41EFB700BBC3BB /* ZHRBReportDetailManager.m in Sources */,
+				9D69ACE51D409C230039A9B4 /* NSDictionary+PDNetworkingMethods.m in Sources */,
+				9D69ACA21D408F420039A9B4 /* AppDelegate.m in Sources */,
+				9D69ACFF1D40AD7D0039A9B4 /* ZHRBBeforeReportsManager.m in Sources */,
+				9D69ACF51D409C230039A9B4 /* OMServiceFactory.m in Sources */,
+				9D8756A21D41C95E00BBC3BB /* ZHRBReportsHeaderView.m in Sources */,
+				9D69ACF91D409CD90039A9B4 /* ZHRBReportsManager.m in Sources */,
+				9D69ACEE1D409C230039A9B4 /* OMApiResponse.m in Sources */,
+				9D8756A91D41E2B300BBC3BB /* ZHRBReportsDetailController.m in Sources */,
+				9D69ACE31D409C230039A9B4 /* OMSignatureGenerator.m in Sources */,
+				9D69ACA91D4091170039A9B4 /* ZHRBReportsController.m in Sources */,
+				9D69ACEA1D409C230039A9B4 /* UIDevice+IdentifierAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9D69AC9A1D408F110039A9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D69AC9B1D408F110039A9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D69AC9D1D408F110039A9B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B81FA35C7CE5D0ED212375 /* Pods-ZhiHuRiBao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiHuRiBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kehwa.apps.ZhiHuRiBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D69AC9E1D408F110039A9B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2540EEB5C61C47F30C4E39F5 /* Pods-ZhiHuRiBao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZhiHuRiBao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kehwa.apps.ZhiHuRiBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D69AC801D408F100039A9B4 /* Build configuration list for PBXProject "ZhiHuRiBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D69AC9A1D408F110039A9B4 /* Debug */,
+				9D69AC9B1D408F110039A9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D69AC9C1D408F110039A9B4 /* Build configuration list for PBXNativeTarget "ZhiHuRiBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D69AC9D1D408F110039A9B4 /* Debug */,
+				9D69AC9E1D408F110039A9B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D69AC7D1D408F100039A9B4 /* Project object */;
+}
