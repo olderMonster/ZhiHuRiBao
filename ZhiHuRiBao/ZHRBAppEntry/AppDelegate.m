@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "ZHRBReportsController.h"
 #import "OMNavigationController.h"
+
+#import "ZHRBLaunchController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -22,10 +25,12 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    ZHRBReportsController *reprotsVC = [[ZHRBReportsController alloc]init];
-    OMNavigationController *nav = [[OMNavigationController alloc]initWithRootViewController:reprotsVC];
+//    ZHRBReportsController *reprotsVC = [[ZHRBReportsController alloc]init];
+//    OMNavigationController *nav = [[OMNavigationController alloc]initWithRootViewController:reprotsVC];
     
-    self.window.rootViewController = nav;
+    ZHRBLaunchController *launchVC = [[ZHRBLaunchController alloc]init];
+    
+    self.window.rootViewController = launchVC;
     [self.window makeKeyAndVisible];
     
     return YES;

@@ -11,4 +11,5 @@ dependencies: \
   /Users/kehwa/Desktop/ZhiHuRiBao/ZhiHuRiBao/ZHRBReprots/Managers/ZHRBBeforeReportsManager.h \
   /Users/kehwa/Desktop/ZhiHuRiBao/ZhiHuRiBao/ZHRBReprots/Views/ZHRBReportsCell.h \
   /Users/kehwa/Desktop/ZhiHuRiBao/ZhiHuRiBao/ZHRBReprots/Views/ZHRBReportsHeaderView.h \
-  /Users/kehwa/Desktop/ZhiHuRiBao/ZhiHuRiBao/ZHRBReprots/Controllers/ZHRBReportsDetailController.h
+  /Users/kehwa/Desktop/ZhiHuRiBao/ZhiHuRiBao/ZHRBReprots/Controllers/ZHRBReportsDetailController.h \
+  /Users/kehwa/Desktop/ZhiHuRiBao/ZhiHuRiBao/ZHRBReprots/Controllers/ZHRBThemeController.h

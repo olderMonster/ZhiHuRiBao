@@ -23,6 +23,7 @@
 //#import "ZHRBLoadingView.h"
 
 #import "ZHRBReportsDetailController.h"
+#import "ZHRBThemeController.h"
 
 @interface ZHRBReportsController ()<UITableViewDataSource , UITableViewDelegate , OMApiManagerParamsSourceDelegate , OMApiManagerCallBackDelegate , UIScrollViewDelegate>
 
@@ -61,6 +62,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
 
     [self.view addSubview:self.reportTableView];
+    [self.view addSubview:self.adScrollView];
     [self.view addSubview:self.navigationBarView];
     [self.view addSubview:self.navagationBarLabel];
 //    [self.view addSubview:self.loadingView];
@@ -94,20 +96,24 @@
     [super viewWillAppear:animated];
     
     self.navigationController.navigationBar.hidden = YES;
-    
-    
-    
+
+}
+
+#pragma mark - event response
+- (void)leftItemButtonAction{
+    ZHRBThemeController *themeVC = [[ZHRBThemeController alloc]init];
+    [self.navigationController pushViewController:themeVC animated:YES];
 }
 
 #pragma mark - private method
 - (void)addHeaderView{
     
     self.reportHeadeView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, 150)];
-    self.reportHeadeView.backgroundColor = [UIColor redColor];
+    self.reportHeadeView.backgroundColor = [UIColor whiteColor];
     
     
-    self.adScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, self.reportHeadeView.bounds.size.width, self.reportHeadeView.bounds.size.height) delegate:nil placeholderImage:nil];
-    [self.reportHeadeView addSubview:self.adScrollView];
+//    self.adScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, self.reportHeadeView.bounds.size.width, self.reportHeadeView.bounds.size.height + 20) delegate:nil placeholderImage:nil];
+//    [self.view addSubview:self.adScrollView];
     
     self.reportTableView.tableHeaderView = self.reportHeadeView;
  
@@ -124,6 +130,14 @@
         //修改导航栏的背景颜色
         CGFloat navigationBarAlpha = (offSetY / 100) > 1.0?1.0:(offSetY / 100);
         self.navigationBarView.alpha = navigationBarAlpha;
+        
+
+        self.adScrollView.frame = CGRectMake(0, -(offSetY + 20) + (-80), kScreenWidth, 170 + 80);
+        if (offSetY < -70) {
+            self.reportTableView.contentOffset = CGPointMake(0, - 70);
+        }
+        
+
         
         //tableView的headerView放大
         //    if (y > -60) {
@@ -312,6 +326,7 @@
     if (_leftItemButton == nil) {
         _leftItemButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_leftItemButton setBackgroundImage:[UIImage imageNamed:@"Home_Icon@2x"] forState:UIControlStateNormal];
+        [_leftItemButton addTarget:self action:@selector(leftItemButtonAction) forControlEvents:UIControlEventTouchUpInside];
     }
     return _leftItemButton;
 }
@@ -333,7 +348,7 @@
 
 - (SDCycleScrollView *)adScrollView{
     if (_adScrollView == nil) {
-        _adScrollView = [[SDCycleScrollView alloc]init];
+        _adScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, -80, kScreenWidth,150 + 20 + 80) delegate:nil placeholderImage:nil];
     }
     return _adScrollView;
 }
